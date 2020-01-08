@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:100,200,300,400,500,600,700|Prompt:100,200,300,400,500,600,700');
+
+body {
+    background-color:#fffff7;
+}
+.fix-gap {
+    padding:0;
+}
+/*--------------------------------- NAV */
+nav ul {
+ 
+    text-align:center;
+    margin:0 auto;
+}
+nav ul li { 
+    
+    margin:0 auto;
+    width:20%;
+    display:inline-block;
+    margin:0;
+    border-radius:none;
+    background-color:#333333;
+   
+}
+.nav-pills .nav-link {
+    border-radius:0%;
+}
+nav li a {
+ color:#eeeeee;
+ font-family: 'Comfortaa', sans-serif;
+ font-weight:800;
+ font-size:14px;
+}
+nav li a:hover {
+    background-color:#eeeeee;
+    color:#333333;
+    font-weight:900;
+}
+
+/*--------------------------------- Header */
+
+.header-right {
+    border:1px solid green;
+    min-height:250px;
+}
+.header-left {
+    border:1px solid green;
+}
+
+
+
