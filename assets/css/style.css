@@ -40,11 +40,20 @@ nav li a {
  font-size:14px;
 }
 nav li a:hover {
-    background-color:#eeeeee;
-    color:#333333;
+   
+    color:#ffffff; 
     font-weight:900;
 }
+/* This will let underline full width of nav section*/
+.hvr-underline-from-left {
+    display:block;
+    
+}
 
+.hvr-underline-from-left:before {
+    background: rgb(255, 255, 255);
+    height:2px;
+}
 /*--------------------------------- Header */
 
 .header-left {
@@ -53,11 +62,13 @@ nav li a:hover {
 }
 .header-left .name {
     padding:0;
-color:#fff;;
+color:#fffff7;
 font-family: 'Promt',sans-serif;
 font-weight:400;
 margin-left:30px;
 margin-top:30px;
+text-shadow:1px 1px #333333;
+
 
 }
 .header-left .value {
@@ -66,6 +77,8 @@ margin-top:30px;
     font-weight:400;
     margin-left:30px;
     margin-top:20px;
+    text-shadow:1px 1px #333333;
+    z-index:1;
 }
 .header-left .personal-info{
      color:#fff;
@@ -73,6 +86,8 @@ margin-top:30px;
    text-align:right;
    display:inline-block;
    float:right;
+    text-shadow:1px 1px #333333;
+z-index:1;
 }
 .header-right {
      background-color:#333333;
@@ -144,28 +159,54 @@ margin-top:30px;
 }
 
 /*--------------------------------- Main Section*/
-.main-section-right {
-   margin-left:30px;
-
-}
-.main-section-right .about {
-   font-size:40px;
+.main-content-h2 {
+   font-size:32px;
    font-family: "Promt", sans-serif;
    font-weight: bold;
    font-style:italic;
    color:#437ccb;
    text-transform: capitalize;
+   margin-bottom: 0px;
+   margin-top:2px;
+}
+.main-section-left {
+ padding-left:30px;
+
 }
 .icon-color {
     font-size:inherit;
     color:#d01b33;
 }
-.main-section-right p {
+.main-section-left p {
    margin-left:45px;
    color:#666666;
    font-family: "Comfortaa", sans-serif;
-
+   animation-duration: 4s;
+   animation-name: slidein;
+   overflow:hidden;
 }
+@keyframes slidein {
+  from {
+    margin-left: 40%;
+    width: 90%; 
+    overflow:hidden;
+  }
+
+  to {
+    margin-left:4%;
+    width: 100%;
+  }
+}
+.main-section-right {
+    padding-left:30px;
+    display:block;
+}
+.icon-star-color {
+    font-size:28px;
+    color:#d09233;
+}
+
+
 
 /*--------------------------------- padding -- I had the problms with padding on xs ans sm screens*/ 
 .no-gutters, .no-padding {
@@ -182,6 +223,7 @@ footer {
 }
 footer {
  min-height:100px;
+ margin-top:5px;
 }
 footer .social-links {
   
@@ -207,7 +249,6 @@ footer .social-links {
 .social-inline-items i {
     font-size:40px;
     color:#fffff7;
-   
     text-align: center;
     line-height: 56px;
     
