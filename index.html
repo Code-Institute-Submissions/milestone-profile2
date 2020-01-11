@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	<nav class="container-fluid no-gutters fix-gap">
+	<nav class="container-fluid no-gutters no-padding">
 		<div class="row">
 			<ul class="nav nav-pills col">
 				<li class="nav-item">
@@ -69,15 +69,15 @@
 			</div>
 		</div>
 		<!--separator-->
-		<div class="container-fluid">
+		<div class="container-fluid no-gutters no-padding">
 			<div class="row">
-				<div class="col-md-7 spacing">
+				<div class=" d-sm-none d-none d-md-block  col-md-7 spacing">
 				<hr class="line-1">
                 </div>
-				<div class="col-md-1 spacing">
-					<span class="icons"><i class="fas fa-ellipsis-h icon"></i></span>
+				<div class=" d-sm-none d-none d-md-block col-md-1 spacing">
+					<span class="icons"> <i class="fas fa-ellipsis-h icon"></i></span>
 				</div>
-				<div class="col-md-4 spacing">
+				<div class="d-sm-block d-none d-md-block col-md-4 spacing">
 					<hr class="line-2">
 				</div>
 			</div>
@@ -86,8 +86,12 @@
 	<section>
 		<p>Mian content</p>
 	</section>
-	<footer>
-		<p>Footer</p>
+	<footer class="container-fluid ">
+        <div class="row">
+            <div class="col ">
+
+            </div>
+        </div>
 	</footer>
 </body>
 

@@ -11,6 +11,7 @@ nav ul {
  
     text-align:center;
     margin:0 auto;
+    
 }
 nav ul li { 
     
@@ -141,7 +142,16 @@ margin-top:30px;
 }
 
 
+/*--------------------------------- padding -- I had the problms with padding on xs ans sm screens*/ 
+.no-gutters, .no-padding {
+    padding-left:0;
+    padding-right:0;
+} 
+footer {
+    min-height:100px;
+    background-color:#333333;
 
+}
 
 
 
