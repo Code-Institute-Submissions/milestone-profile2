@@ -25,6 +25,13 @@ nav ul li {
 .nav-pills .nav-link {
     border-radius:0%;
 }
+.nav-pills .nav-link.active {
+     background-color:#d01b33;
+
+}
+.active .bg-color {
+    background-color:#d01b33;
+}
 nav li a {
  color:#eeeeee;
  font-family: 'Comfortaa', sans-serif;
@@ -39,13 +46,103 @@ nav li a:hover {
 
 /*--------------------------------- Header */
 
-.header-right {
-    border:1px solid green;
-    min-height:250px;
-}
 .header-left {
-    border:1px solid green;
+     min-height:250px;
+     background:#2b78e4;
 }
+.header-left .name {
+    padding:0;
+color:#fff;;
+font-family: 'Promt',sans-serif;
+font-weight:400;
+margin-left:30px;
+margin-top:30px;
+
+}
+.header-left .value {
+    color:#fff;
+    font-family: 'Comfortaa',sans-serif;
+    font-weight:400;
+    margin-left:30px;
+    margin-top:20px;
+}
+.header-left .personal-info{
+     color:#fff;
+    font-family: 'verdana',sans-serif;
+   text-align:right;
+   display:inline-block;
+   float:right;
+}
+.header-right {
+     background-color:#333333;
+   
+}
+.circle-border {
+    border:3px solid #fffff7;
+    width:264px;
+    height:264px;
+   /* border-radius:blue;*/
+     margin:0 auto;
+    border-radius:50%;
+  /*  background-color:blue;*/
+}
+.size {
+    width:250px;
+}
+
+ .frame-for-picture {
+    height: 250px;
+    width: 250px;
+    background: url(../images/Rimantas-Preiksas.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80px;
+   /*border: 2px solid blue;*/
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+.borders {
+    border:1px solid red;
+}
+/*--------------------------------- seperator */
+/*
+.col-md-7 ,.spacing {
+    padding-right: 0; 
+    padding-left: 0;
+}
+.col-md-4 ,.spacing{
+     padding-right: 0; 
+    padding-left: 0;
+}
+.col-md-1 ,.spacing{
+     padding-right: 0; 
+    padding-left: 0;
+}
+*/
+
+.line-1 {
+    border:2px solid #d01b33;
+     margin-top:28px;   
+}
+
+.icon {
+    color:#d01b33;
+    font-size:64px;
+  /* margin-left:33%;*/
+}
+.icons {
+    margin:0 auto;
+}
+.line-2 {
+    border:2px solid #d01b33;
+ 
+    margin-top:28px;
+}
+
+
+
+
 
 
 
