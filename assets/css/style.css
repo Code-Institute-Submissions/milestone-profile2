@@ -2,18 +2,24 @@
 
 body {
     background-color:#fffff7;
+  
+}
+html, body { 
+overflow-x: hidden; 
 }
 .fix-gap {
     padding:0;
 }
 /*--------------------------------- NAV */
+
 nav ul {
  
     text-align:center;
     margin:0 auto;
     
 }
-nav ul li { 
+
+nav ul li {  
     
     margin:0 auto;
     width:20%;
@@ -23,7 +29,8 @@ nav ul li {
     background-color:#333333;
    
 }
-.nav-pills .nav-link {
+
+ .nav-pills .nav-link {
     border-radius:0%;
 }
 .nav-pills .nav-link.active {
@@ -34,17 +41,28 @@ nav ul li {
     background-color:#d01b33;
 }
 nav li a {
- color:#eeeeee;
+ color:#eeeeee !important;
  font-family: 'Comfortaa', sans-serif;
  font-weight:800;
  font-size:14px;
 }
+
+/*
+.navbar-collapse, .navbar-nav, .show li {
+width:100%;
+height:auto;
+padding:0;
+
+}
+*/
 nav li a:hover {
    
     color:#ffffff; 
     font-weight:900;
 }
-/* This will let underline full width of nav section*/
+
+ 
+/* This will let underline in full width of nav section (hover effect)*/
 .hvr-underline-from-left {
     display:block;
     
@@ -54,6 +72,9 @@ nav li a:hover {
     background: rgb(255, 255, 255);
     height:2px;
 }
+
+
+
 /*--------------------------------- Header */
 
 .header-left {
@@ -217,18 +238,13 @@ z-index:1;
 footer {
     min-height:100px;
     background-color:#333333;
-   
-
-    
-}
+   }
 footer {
  min-height:100px;
  margin-top:5px;
 }
 footer .social-links {
-  
-   
-    padding:0;
+   padding:0;
 }
 .social-inline-items {
     display:inline-block;
@@ -238,22 +254,42 @@ footer .social-links {
     background-color:#333333;
     margin-top:20px;
     line-height:60px;
-    border-radius:30px;
+    border-radius:50%;
     text-align:center;
+    transition: all 0.7s ease-in-out;
+    
+
+   
 }
 .social-inline-items a {
     text-decoration:none; 
 }
+.social-inline-items i:hover {
+text-align:center;
+color:#d09233;
+line-height:56px;
 
+}
+.social-inline-items:hover {
+border :2px solid #d09233;
+width:59px;
+height:59px;
+
+
+/*this still needs to be fixed, because when it shrinks down it is not in center*/
+  
+
+
+}
 
 .social-inline-items i {
     font-size:40px;
     color:#fffff7;
     text-align: center;
     line-height: 56px;
-    
- 
+     transition: all 0.35s ease-in-out;
 }
+
 .linkedin {
     font-size:40px !important;
     color:#fffff7;
@@ -266,8 +302,29 @@ footer .social-links {
 .col {
     padding:0;
 }
+@media(max-width: 576px) {
+    
+}
+}
+@media(min-width: 768px) {
+    .main-section-right-adjust {
+        Display:block;
+    }
+    .main-section-right span {
+      display: inline-block;
+     width: 200px;
 
+    }
+    .main-section-right i {
+        display:inline-block;
+    }
+}
 
+@media(max-width: 992px) {
+    .nav-item {
+    width:100%;
+}
+}
 
 
 
