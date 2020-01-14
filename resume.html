@@ -20,6 +20,7 @@
 </head>
 
 <body>
+	<!--NAVIGATION TURNS INTO A BUTTON AT 992PX-->
 	<nav class="container-fluid no-gutters no-padding  navbar-expand-lg navbar-light bg-light">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -41,10 +42,11 @@
 				<li class="nav-item ">
 					<a class="nav-link hvr-underline-from-left" href="#">Portfolio</a>
 				</li>
-
 			</ul>
 		</div>
 	</nav>
+	<!--END OF NAV-->
+	<!--HEADER -->
 	<header>
 		<div class="container-fluid">
 			<div class="row">
@@ -52,12 +54,10 @@
 					<div class="row no-gutters">
 						<div class="col-md-8 name">
 							<h1>Rimantas Preiksas</h1>
-
 						</div>
 						<div class="value">
 							<h2>Full Stack Web Developer</h2>
 						</div>
-
 						<div class="col-md-4 personal-info ">
 							<h5>Spalding</h5>
 							<h5>12 Giles Road</h5>
@@ -75,118 +75,102 @@
 				</div>
 			</div>
 		</div>
-		<!--separator-->
+		<!--END OF HEADER-->
+		<!--SEPERATOR-->
 		<div class="container-fluid no-gutters no-padding">
 			<div class="row no-gutters">
 				<div class=" d-sm-none d-none d-md-block  col-md-12 spacing">
 					<hr class="line-1">
 				</div>
 			</div>
-
-
-			<!-- 
-				<div class=" d-sm-none d-none d-md-block col-md-1 spacing">
-					<span class="icons"> <i class="fas fa-ellipsis-h icon"></i></span>
-                   
-				</div>
-				<div class="d-sm-block d-none d-md-block col-md-4 spacing">
-					<hr class="line-2">
-				</div>
-                -->
-
-
 		</div>
-		<!-- END of the seperator-->
+		<!-- END OF SEPERATOR-->
+		<!-- MAIN SECTION THIS PART IS GOING TO BE DIFFERENT IN ALL THE PAGES.-->
 	</header>
 	<section class="container-fluid">
 		<div class="row">
+			<!-- LEFT SIDE OF THE MAIN SECTION-->
 			<div class="col-md-6 col-lg-8 main-section-left">
-				<h2 class="main-content-h2"> <i class="fas fa-briefcase icon-color"></i></i>Work History</h2>
-				
+				<h2 class="main-content-h2"><i class="fas fa-briefcase icon-color"></i>Work History</h2>
+				<!--WORK HISTORY-->
+				<div class="history-items">
+					<div class="timeline-item" data-dates="March 2012 to September 2016">
+						<h4>Mentha Nursery LTD</h4>
+						<p>Quality Audite, (Plants Care)</p>
+					</div>
+					<div class="timeline-item" data-dates="December 2016 to April 2017">
+						<h4>Karsten UK</h4>
+						<p>Machine Operator</p>
+					</div>
+					<div class="timeline-item" data-dates="April 2017 to February 2018">
+						<h4>Istanbul LTD Dilivery Driver </h4>
+						<p>Dilivery Driver</p>
+					</div>
+					<div class="timeline-item" data-dates="February 2018 to February 2019">
+						<h4>Moulton Bulbs Ltd Goldwood</h4>
+						<p>Machine Operator</p>
+					</div>
+					<div class="timeline-item" data-dates="February 2019 to Present">
+						<h4>Moulton Bulbs Ltd Goldwood</h4>
+						<p>Junior Supervisor</p>
+					</div>
+					<div class="timeline-item" data-dates="February 2019 to Present">
+						<h4>Moulton Bulbs Ltd Goldwood, Self-emloyed</h4>
+						<p>Junior Supervisor, Freelance Full Stack Web Developer</p>
+					</div>
+				</div>
+			</div>
+			<!--RIGHT SIDE OF THE MAIN SECTION-->
 
-                <div class="history-items">
-                    <div class="timeline-item" data-dates="March 2012 to September 2016">
-                        <h4>Mentha Nursery LTD</h4>
-                        <p>Quality Audite, (Plants Care)</p>
-                    </div>
-                    <div class="timeline-item" data-dates="December 2016 to April 2017">
-                        <h4>Karsten UK</h4>
-                        <p>Machine Operator</p>
-                    </div>
-                    <div class="timeline-item" data-dates="April 2017 to February 2018">
-                        <h4>Istanbul LTD Dilivery Driver </h4>
-                        <p>Dilivery Driver</p>
-                    </div>
-                    <div class="timeline-item" data-dates="February 2018 to February 2019">
-                        <h4>Moulton Bulbs Ltd Goldwood</h4>
-                        <p>Machine Operator</p>
-                    </div>
-                      <div class="timeline-item" data-dates="February 2019 to Present">
-                        <h4>Moulton Bulbs Ltd Goldwood</h4>
-                        <p>Junior Supervisor</p>
-                    </div>
-                     <div class="timeline-item" data-dates="February 2019 to Present">
-                        <h4>Moulton Bulbs Ltd Goldwood, Self-emloyed</h4>
-                        <p>Junior Supervisor, Freelance Full Stack Web Developer</p>
-                    </div>
-                        
-                    </div>
-                    </div>
-                    
-                    
-			
-           
 			<div class="col-md-6  col-lg-4 main-section-right">
 				<div class="row">
+					<!--GRAPHICALLY SHOWN THE SKILLS.-->
 					<div class="col">
-                    <ul>
-                    <li class=" diagram col-xs-6 col-sm-3 col-md-4 col-xl-4">
-                  
-                    <div id="pie-hidde-1"></div><div class="pie-base title">HTML/HTML5</div><div class="pie-show"></div>
-                   
-                    </li>
-                     <li class=" diagram col-xs-6 col-sm-3 col-md-4 col-xl-4">
-                 
-                    <div id="pie-hidde-2"></div><div class="pie-base title">JavaScript</div><div class="pie-show"></div>
-                   
-                    </li>
-                    <li class=" diagram col-xs-6 col-sm-3 col-md-4 col-xl-4">
-                
-                    <div id="pie-hidde-3"></div><div class="pie-base title">CSS/CSS3</div><div class="pie-show"></div>
-                   
-                    </li>
-                    <li class=" diagram col-xs-6 col-sm-3 col-md-4 xol-xl-4">
-                
-                    <div id="pie-hidde-4"></div><div class="pie-base title">Python</div><div class="pie-show"></div>
-                    
-                    </li>
-                    <li class=" diagram col-xs-6 col-sm-3 col-md-4 xl-4">
-                     
-                    <div id="pie-hidde-5"></div><div class="pie-base title">jQuery</div><div class="pie-show"></div>
-                   
-                    </li >
-                    <li class="diagram col-xs-6 col-sm-3 col-md-4">
-                   
-                    <div id="pie-hidde-6"></div><div class="pie-base title">SQL</div><div class="pie-show"></div>
-                  
-                    </li>
-                    </ul>
-
-
+						<ul>
+							<li class=" diagram col-xs-6 col-sm-3 col-md-4 col-xl-4">
+								<div id="pie-hidde-1"></div>
+								<div class="pie-base title">HTML/HTML5</div>
+								<div class="pie-show"></div>
+							</li>
+							<li class=" diagram col-xs-6 col-sm-3 col-md-4 col-xl-4">
+								<div id="pie-hidde-2"></div>
+								<div class="pie-base title">JavaScript</div>
+								<div class="pie-show"></div>
+							</li>
+							<li class=" diagram col-xs-6 col-sm-3 col-md-4 col-xl-4">
+								<div id="pie-hidde-3"></div>
+								<div class="pie-base title">CSS/CSS3</div>
+								<div class="pie-show"></div>
+							</li>
+							<li class=" diagram col-xs-6 col-sm-3 col-md-4 xol-xl-4">
+								<div id="pie-hidde-4"></div>
+								<div class="pie-base title">Python</div>
+								<div class="pie-show"></div>
+							</li>
+							<li class=" diagram col-xs-6 col-sm-3 col-md-4 xl-4">
+								<div id="pie-hidde-5"></div>
+								<div class="pie-base title">jQuery</div>
+								<div class="pie-show"></div>
+							</li>
+							<li class="diagram col-xs-6 col-sm-3 col-md-4">
+								<div id="pie-hidde-6"></div>
+								<div class="pie-base title">SQL</div>
+								<div class="pie-show"></div>
+							</li>
+						</ul>
 					</div>
-                    </div>
-                </div>
+				</div>
+			</div>
+		</div>
 	</section>
-
+	<!--FOOTER-->
 	<footer class="container-fluid no-gutters no-padding ">
 		<div class="row">
-
 			<div class="col d-flex justify-content-center ss">
-
 				<ul class="social-links">
 					<li class="social-inline-items">
 						<a href="https://facebook.com" target="_blank">
-							<i class="fab fa-facebook"></i>
+						     <i class="fab fa-facebook"></i>
 							<span class="sr-only">Facebook</span>
 						</a>
 					</li>
@@ -209,8 +193,6 @@
 						</a>
 					</li>
 				</ul>
-
-
 			</div>
 		</div>
 	</footer>
@@ -224,5 +206,4 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
 </body>
-
 </html>

@@ -2,7 +2,6 @@
 
 body {
     background-color:#fffff7;
-  
 }
 html, body { 
 overflow-x: hidden; 
@@ -13,24 +12,19 @@ overflow-x: hidden;
 /*--------------------------------- NAV */
 
 nav ul {
- 
-    text-align:center;
-    margin:0 auto;
-    
+text-align:center;
+margin:0 auto;
 }
 
 nav ul li {  
-    
-    margin:0 auto;
+   margin:0 auto;
     width:20%;
     display:inline-block;
     margin:0;
-    border-radius:none;
+    border-radius:0px;
     background-color:#333333;
-   
 }
-
- .nav-pills .nav-link {
+.nav-pills .nav-link {
     border-radius:0%;
 }
 .nav-pills .nav-link.active {
@@ -46,22 +40,10 @@ nav li a {
  font-weight:800;
  font-size:14px;
 }
-
-/*
-.navbar-collapse, .navbar-nav, .show li {
-width:100%;
-height:auto;
-padding:0;
-
-}
-*/
 nav li a:hover {
-   
     color:#ffffff; 
     font-weight:900;
 }
-
- 
 /* This will let underline in full width of nav section (hover effect)*/
 .hvr-underline-from-left {
     display:block;
@@ -72,17 +54,13 @@ nav li a:hover {
     background: rgb(255, 255, 255);
     height:2px;
 }
-
-
-
 /*--------------------------------- Header */
-
 .header-left {
-     min-height:250px;
-     background:#2b78e4;
+min-height:250px;
+background:#2b78e4;
 }
 .header-left .name {
-    padding:0;
+padding:0;
 color:#fffff7;
 font-family: 'Promt',sans-serif;
 font-weight:400;
@@ -102,53 +80,43 @@ text-shadow:1px 1px #333333;
     z-index:1;
 }
 .header-left .personal-info{
-     color:#fff;
+    color:#fff;
     font-family: 'verdana',sans-serif;
-   text-align:right;
-   display:inline-block;
-   float:right;
+    text-align:right;
+    display:inline-block;
+    float:right;
     text-shadow:1px 1px #333333;
-z-index:1;
+    z-index:1;
 }
 .header-right {
      background-color:#333333;
-   
 }
 .circle-border {
     border:3px solid #fffff7;
     width:264px;
     height:264px;
-   /* border-radius:blue;*/
      margin:0 auto;
     border-radius:50%;
-  /*  background-color:blue;*/
 }
 .size {
     width:250px;
 }
-
- .frame-for-picture {
+.frame-for-picture {
     height: 250px;
     width: 250px;
     background: url('../images/Rimantas-Preiksas.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -80px;
-   /*border: 2px solid blue;*/
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 4px;
 }
-.borders {
-    border:1px solid red;
-}
 /*--------------------------------- seperator */
-
 .line-1 {
     border:2px solid #333333;
   margin-top:0px;
 }
-
 .icon {
     color:#d01b33;
     font-size:32px;
@@ -160,7 +128,6 @@ z-index:1;
     border:1px solid red;
     margin-top:0px;
 }
-
 /*--------------------------------- Main Section*/
 .main-content-h2 {
    font-size:32px;
@@ -208,9 +175,6 @@ z-index:1;
     font-size:28px;
     color:#d09233;
 }
-
-
-
 /*--------------------------------- padding -- I had the problms with padding on xs ans sm screens*/ 
 .no-gutters, .no-padding {
     padding-left:0;
@@ -239,9 +203,6 @@ footer .social-links {
     border-radius:50%;
     text-align:center;
     transition: all 0.7s ease-in-out;
-    
-
-   
 }
 .social-inline-items a {
     text-decoration:none; 
@@ -250,18 +211,13 @@ footer .social-links {
 text-align:center;
 color:#d09233;
 line-height:56px;
-
 }
 .social-inline-items:hover {
 border :2px solid #d09233;
 width:59px;
 height:59px;
-
-
 /*this still needs to be fixed, because when it shrinks down it is not in center*/
-
 }
-
 .social-inline-items i {
     font-size:40px;
     color:#fffff7;
@@ -269,13 +225,12 @@ height:59px;
     line-height: 56px;
     transition: all 0.35s ease-in-out;
 }
-
 .linkedin {
     font-size:40px !important;
     color:#fffff7;
     line-height: 56px;
-    
 }
+/* these two classes below have to chaked because might not have any effect on the code*/
 .ss {
     padding:0;
 }
@@ -283,7 +238,6 @@ height:59px;
     padding:0;
 }
 /* ----------------------------------------Work History */
-
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -300,9 +254,7 @@ height:59px;
     font-family:'Compfortaa',sans-serif;
     font-weight:600;
     font-size:0.9em;
-
 }
-
 .timeline-item:before {
     content: attr(data-dates);
     position: absolute;
@@ -315,7 +267,6 @@ height:59px;
     padding: 0;
     margin: 0;
 }
-
 .timeline-item:after {
     width: 14px;
     height: 14px;
@@ -344,16 +295,12 @@ height:59px;
 
 .main-section-right-adjust li {
     list-style: none;
-  
 }
 .diagram {
-  
     position: relative;
     display:inline-block;
     width:120px;
     height:120px;
-    
-
 }
 /*--------------------------------- This one is for HTML/HTML5 */
 
@@ -379,8 +326,6 @@ z-index:3;
 left: 50%;
 margin-left: -45px;
 top:15px;
-
-
 }
 .pie-show {
 border:1px solid #fffff7;
@@ -393,7 +338,6 @@ z-index:1;
 left: 50%;
 margin-left: -50px;
 top:10px;
-
 }
 /*--------------------------------- This one is for JavaScript */
 #pie-hidde-2 {
@@ -408,7 +352,6 @@ left: 50%;
 margin-left:-50px;
 top:10px;
 }
-
 /*--------------------------------- This one is for css/css3 */
 #pie-hidde-3 {
 position:absolute;
@@ -495,7 +438,7 @@ top:10px;
     }
     .main-section-right div {
       display: inline-block;
-     width: 200px;
+    /* width: 200px;*/
 
     }
     .main-section-right i {
