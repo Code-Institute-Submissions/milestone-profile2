@@ -130,7 +130,7 @@ z-index:1;
  .frame-for-picture {
     height: 250px;
     width: 250px;
-    background: url(../images/Rimantas-Preiksas.JPG);
+    background: url('../images/Rimantas-Preiksas.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -80px;
@@ -192,8 +192,8 @@ z-index:1;
 }
 .main-section-left {
  padding-left:30px;
-
-}
+ padding-right:15px;
+ }
 .icon-color {
     font-size:inherit;
     color:#d01b33;
@@ -287,7 +287,7 @@ height:59px;
     color:#fffff7;
     text-align: center;
     line-height: 56px;
-     transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
 
 .linkedin {
@@ -302,10 +302,218 @@ height:59px;
 .col {
     padding:0;
 }
-@media(max-width: 576px) {
+/* ----------------------------------------Work History */
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #666666;
+    border-left: 1px solid;
+    font-family: 'Prompt', sans-serif;
+    font-weight:400;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+    color:#000000;
+    font-family:'Compfortaa',sans-serif;
+    font-weight:600;
+    font-size:0.9em;
+
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 14px;
+    height: 14px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 14px;
+    content: '';
+    background: #666666;
     
 }
+
+.history-items {
+    margin-bottom: 30px;
 }
+/*--------------------------------- Skills diagrams */
+
+.title {
+    line-height:90px;
+    text-align:center;
+    font-size:12px;
+    font-weight:bold;
+    color:white;
+}
+
+.main-section-right-adjust li {
+    list-style: none;
+  
+}
+.diagram {
+  
+    position: relative;
+    display:inline-block;
+    width:120px;
+    height:120px;
+    
+
+}
+/*--------------------------------- This one is for HTML/HTML5 */
+.main-section-right{
+    
+  }
+.main-section-right li{
+   
+  }
+
+#pie-hidde-1 {
+position:absolute;
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:#fffff7;
+clip: rect(0px,50px,50px,0px); 
+z-index:2;
+left: 50%;
+margin-left:-50px;
+top:10px;
+}
+.pie-base {
+position:absolute;
+width:90px;
+height:90px;
+border-radius:50%;
+background-color:#437ccb;
+z-index:3;
+left: 50%;
+margin-left: -45px;
+top:15px;
+
+
+}
+.pie-show {
+border:1px solid #fffff7;
+position:absolute;
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:#f89808;
+z-index:1;
+left: 50%;
+margin-left: -50px;
+top:10px;
+
+}
+/*--------------------------------- This one is for JavaScript */
+#pie-hidde-2 {
+position:absolute;
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:#fffff7;
+clip: rect(0px,50px,100px,0px); 
+z-index:3;
+left: 50%;
+margin-left:-50px;
+top:10px;
+}
+
+/*--------------------------------- This one is for css/css3 */
+#pie-hidde-3 {
+position:absolute;
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:#fffff7;
+clip: rect(0px,50px,60px,0px); 
+z-index:3;
+left: 50%;
+margin-left:-50px;
+top:10px;
+}
+/*--------------------------------- This one is for Python */
+#pie-hidde-4 {
+position:absolute;
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:#fffff7;
+clip: rect(0px,50px,70px,0px); 
+z-index:3;
+left: 50%;
+margin-left:-50px;
+top:10px;
+}
+/*--------------------------------- This one is for jQuery */
+#pie-hidde-5 {
+position:absolute;
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:#fffff7;
+clip: rect(0px,50px,30px,0px); 
+z-index:3;
+left: 50%;
+margin-left:-50px;
+top:10px;
+}
+/*--------------------------------- This one is for SQL */
+#pie-hidde-6 {
+position:absolute;
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:#fffff7;
+clip: rect(0px,50px,20px,0px); 
+z-index:3;
+left: 50%;
+margin-left:-50px;
+top:10px;
+}
+
+/*--------------------------------- Contact me */
+
+.contact-form {
+    width:80%;
+    margin:0 auto;
+}
+.main-content-h2-contant-me {
+    margin-top:30px;
+    color:#437ccb;
+    text-align: center;
+}
+/*--------------------------------- Portfolio */
+.portfolio {
+    text-align:center;
+}
+
+@media(max-width: 768px) {
+    .main-section-right{
+    padding:30px;
+}
+    .aligning ul {
+        margin:0 auto;
+        align-items: center;
+    }
+}
+
 @media(min-width: 768px) {
     .main-section-right-adjust {
         Display:block;
