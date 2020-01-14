@@ -316,7 +316,7 @@ height:59px;
 .timeline-item p {
     padding: 0;
     margin: 0;
-    color:#000000;
+    color:#000009;
     font-family:'Compfortaa',sans-serif;
     font-weight:600;
     font-size:0.9em;
@@ -342,7 +342,7 @@ height:59px;
     display: block;
     top: 2.4em;
     position: absolute;
-    left: -6px;
+    left: -7px;
     border-radius: 14px;
     content: '';
     background: #666666;
@@ -503,6 +503,7 @@ top:10px;
 .portfolio {
     text-align:center;
 }
+
 
 @media(max-width: 768px) {
     .main-section-right{
