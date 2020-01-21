@@ -420,6 +420,9 @@ top:10px;
 .portfolio {
     text-align:center;
 }
+.card-style {
+    display:inline-block;
+}
 
 
 @media(max-width: 768px) {
