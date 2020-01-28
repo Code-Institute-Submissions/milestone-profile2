@@ -32,8 +32,16 @@ They come to the website with questions in need of answering.
 
 - Colour scheme consists of few colours, was used website to blend the colors.
    (https://meyerweb.com/eric/tools/color-blend/#:::hex)
-    - :   ![#fffff7](https://placehold.it/15/fffff7/000000?text=+) `#fffff7`
-    - patrick's-blue:     ![#D2E2FF](https://placehold.it/15/D2E2FF/000000?text=+) `#D2E2FF`
+    - ![#fffff7](https://placehold.it/15/fffff7/000000?text=+) `#fffff7`
+    - ![#d01b33](https://placehold.it/15/d01b33/000000?text=+) `#d01b33`
+    - ![#2b78e4](https://placehold.it/15/2b78e4/000000?text=+) `#2b78e4`
+    - ![#333333](https://placehold.it/15/333333/000000?text=+) `#333333`
+    - ![#d09233](https://placehold.it/15/d09233/000000?text=+) `#d09233`
+    - ![#666666](https://placehold.it/15/666666/000000?text=+) `#666666`
+    - ![#f89808](https://placehold.it/15/f89808/000000?text=+) `#f89808`
+    - Bottstrap card class bg-danger![#dc3545](https://placehold.it/15/dc3545/000000?text=+) `#dc3545`
+    
+    
 - [Custom designed logo](documentation/logo.png) resembling [five rows of dail](documentation/rows-dail.jpg) and [four rows of seanad](documentation/rows-seanad.png) seats.
 - roboto font used throughout the website
     - font-family: 'Roboto', 'helvetica' sans-serif;
