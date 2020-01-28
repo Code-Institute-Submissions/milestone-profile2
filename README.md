@@ -1,4 +1,4 @@
-#Full Stack Web Developer 
+# Full Stack Web Developer 
 
 This website is my first milestone project for Code Institute, I will be using this website for my own presentation. The website is very simple, my goal wasto display easily understandable information, for my potential employers or customers. The website was built using the Bootstrap v4.4.1 framework. 
 Hosted on [GitHub Pages](https://rimantascode.github.io/milestone-profile2/)
