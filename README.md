@@ -29,10 +29,10 @@ They come to the website with questions in need of answering.
 5. A political scientist looking for the party of a certain house member
 
 ### Design
-![Website Logo - Gold circles representing the seats of the Oireachtas](documentation/logo.png)
-- Colour scheme consists of complementary colours 
-    - Tweaked versions of archaic [government flag](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Arms_of_Ireland_%28historical%29.svg/220px-Arms_of_Ireland_%28historical%29.svg.png) colours.
-    - irish-gold:   ![#FFA65D](https://placehold.it/15/FFA65D/000000?text=+) `#FFA65D`
+
+- Colour scheme consists of few colours, was used website to blend the colors.
+   (https://meyerweb.com/eric/tools/color-blend/#:::hex)
+    - :   ![##fffff7](https://placehold.it/15/FFA65D/000000?text=+) `#fffff7`
     - patrick's-blue:     ![#D2E2FF](https://placehold.it/15/D2E2FF/000000?text=+) `#D2E2FF`
 - [Custom designed logo](documentation/logo.png) resembling [five rows of dail](documentation/rows-dail.jpg) and [four rows of seanad](documentation/rows-seanad.png) seats.
 - roboto font used throughout the website
