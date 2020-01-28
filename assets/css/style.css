@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:100,200,300,400,500,600,700|Prompt:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:100,200,300,400,500,600,700|Prompt:100,200,300,400,500,600,700|Roboto:400,500|Mina:100,200,300');
 
 body {
     background-color:#fffff7;
@@ -78,22 +78,14 @@ text-shadow:1px 1px #333333;
     font-family: 'Comfortaa',sans-serif;
     font-weight:400;
     margin-left:30px;
-    margin-top:20px;
+    margin-top:10px;
     text-shadow:1px 1px #333333;
    
-}
-
-.header-left .personal-info {
-    color:#fff;
-    font-family: 'verdana',sans-serif;
-    text-shadow:1px 1px #333333;
-    margin-left:30px;
-    font-size:0.9em;
-    margin-top:20px;
 }
 .header-right {
      background-color:#333333;
 }
+
 .circle-border {
     border:3px solid #fffff7;
     width:264px;
@@ -104,6 +96,29 @@ text-shadow:1px 1px #333333;
 .size {
     width:250px;
 }
+.personal-info {
+margin-top:20px;
+}
+.personal-info a{
+    color:#fff;
+    font-family: 'Comfortaa',sans-serif;
+    text-shadow:1px 1px #333333;
+    margin-left:30px;
+    font-size:1em;
+    font-weight:bold;
+    text-decoration:none;
+    letter-spacing:2px;
+    
+    
+}
+.contact-details-phone {
+margin-top:25px;
+}
+.contact-details-email {
+margin-top:20px;
+margin-bottom:25px;
+}
+
 .frame-for-picture {
     height: 250px;
     width: 250px;
@@ -161,7 +176,11 @@ text-shadow:1px 1px #333333;
    font-family: "Comfortaa", sans-serif;
    animation-duration: 4s;
    animation-name: slidein;
+   -webkit-animation-name: slidein;
+   -moz-animation-name: slidein;
+   -o-animation-name: slidein;
    overflow:hidden;
+   text-align: justify;
 }
 @keyframes slidein {
   from {
