@@ -15,7 +15,7 @@ The project is shared for use with the [GNU General Public License v3](https://g
 
 ## UX
 
-![Responsive Views of Home Page](documentation/Responsive.png)
+![Responsive Views of Home Page](documentation/responsive.png)
 
 ### Users 
 Expected users of the website include lawmakers, educators, journalists and students of all kinds. 
