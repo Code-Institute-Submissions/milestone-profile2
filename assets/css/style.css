@@ -2,7 +2,6 @@
 
 body {
     background-color:#fffff7;
-   
 }
 html, body { 
 overflow-x: hidden; 
@@ -17,7 +16,6 @@ nav ul {
 text-align:center;
 margin:0 auto;
 }
-
 nav ul li {  
    margin:0 auto;
     width:20%;
@@ -70,8 +68,6 @@ font-weight:400;
 margin-left:30px;
 margin-top:30px;
 text-shadow:1px 1px #333333;
-
-
 }
 .value {
     color:#fff;
@@ -212,6 +208,7 @@ margin-bottom:25px;
 footer {
  min-height:100px;
 background-color:#333333;
+z-index:1;
 }
 
 footer .social-links {
@@ -228,6 +225,9 @@ footer .social-links {
     border-radius:50%;
     text-align:center;
     transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
 }
 .social-inline-items a {
     text-decoration:none; 
@@ -324,6 +324,12 @@ height:59px;
 section .row .main-section-right-adjust div h2{
     font-size:1.5em;
 }
+.fixing-diagrams{
+    border:1px solid green;
+  /* position:fixed;*/
+z-index:2;
+}
+
 .diagram {
     position: relative;
     display:inline-block;
@@ -331,7 +337,6 @@ section .row .main-section-right-adjust div h2{
     height:120px;
 }
 /*--------------------------------- This one is for HTML/HTML5 */
-
 #pie-hidde-1 {
 position:absolute;
 width:100px;
@@ -461,6 +466,7 @@ top:10px;
 font-size:20px;
 font-family: 'Mina',sans-serif;
 font-weight:bolder;
+color:#fffff7
 }
 .for-links p {
     height:200px;
@@ -468,11 +474,12 @@ font-weight:bolder;
     overflow: hidden;
     font-family:'Mina',sans-serif;
     font-weight: bold;
+    overflow:scroll;
 }
  .for-links div i {
 height:50px;
 width:50px;   
-color:#fff;
+color:#fffff7;
 font-size:2em;
 line-height:50px;
 
@@ -488,19 +495,12 @@ border-radius:6px;
 }
 
 @media(max-width: 768px) {
-    .main-section-right{
-   /* padding:30px;*/
-}
     .aligning ul {
         margin:0 auto;
         align-items: center;
     }
     .main-section-left p {
         margin-left:-15px;
-    }
-    .main-content-h2 {
-        margin:0 auto;
-        margin-bottom:15px;
     }
 }
 
@@ -515,8 +515,7 @@ border-radius:6px;
         display:inline-block;
     }
     .skills-diagram {
-    position:fixed;
-    right:0;
+    z-index:1;
     }   
    .main-section {
     padding-bottom:150px;
