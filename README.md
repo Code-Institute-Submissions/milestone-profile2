@@ -158,9 +158,9 @@ It may take a moment for changes to appear on the hosted website.
 ## Credits
 the box shadow in portfolio.html was coppied and modified from:
  - [w3schools](https://www.w3schools.com/css/css3_shadows.asp)
- the isiration of pie diagrams got from:
- - [code Institute](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
--  [reame.md](https://github.com/Pattern-Projects/oireachtas-ifd-project/tree/master)
+- the ispiration of pie diagrams got from:
+        - [code Institute](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
+-  [readme.md](https://github.com/Pattern-Projects/oireachtas-ifd-project/tree/master)
     - used as I guidence for my own readme.md
 ### Acknowledgements
 Thank you inspiration, very usefull guidence and tips:
