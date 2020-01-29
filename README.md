@@ -18,15 +18,7 @@ The project is shared for use with the [GNU General Public License v3](https://g
 ![Responsive Views of Home Page](documentation/responsive.png)
 
 ### Users 
-Expected users of the website include lawmakers, educators, journalists and students of all kinds. 
-They come to the website with questions in need of answering.
-
-### User Stories
-1. A student user wants to learn more about the houses of the oireachtas
-2. An education professional user wants to share learning resources with their students
-3. A journalist user looking up the latest legislation
-4. Oireachtas member user searching for colleague information
-5. A political scientist looking for the party of a certain house member
+Expected users of the website my potential employers or clients. 
 
 ### Design
 
@@ -43,7 +35,7 @@ They come to the website with questions in need of answering.
     
     
 -  font used throughout the website
-    - font-family: 'Comfortaa', 'Prompt','Roboto', sans-serif;
+    - font-family: 'Comfortaa', 'Prompt','Roboto','Mina', sans-serif;
 
 ### Mockups
 The website consists from 4 pages index.html, conttact.html,resume.html,portfolio.html. Download section is stright forward, to download the the cv. I did a mockups for 3 pages in the beginning, and then dicided to build 2 more pages. 
@@ -87,7 +79,6 @@ Features planned, implemented and outlined for later development
 - GitHub - Remote Repository
 - Deployed - Hosted on Github Pages
 
-
 ### Features Left to Implement
 - custom logo
  Bootstrap - HTML, CSS Framework
@@ -120,9 +111,9 @@ This project makes use of:
     - used to make a mockup
 
 ## Testing
-    Tested on Mozilla forefox, Opera, Google Chrome and Safari browsers didin't looked good responsive design.
+    Tested on Mozilla firefox, Opera, Google Chrome and Safari browsers looked good responsive design.
     sent few links to my friends and relatives, the feedbacks were good.
-    
+
 
 ## Deployment
 
