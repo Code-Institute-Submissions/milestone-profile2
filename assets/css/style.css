@@ -329,12 +329,12 @@ section .row .main-section-right-adjust div h2{
   /* position:fixed;*/
 z-index:2;
 }
-
 .diagram {
     position: relative;
     display:inline-block;
     width:120px;
     height:120px;
+   
 }
 /*--------------------------------- This one is for HTML/HTML5 */
 #pie-hidde-1 {
@@ -516,6 +516,7 @@ border-radius:6px;
     }
     .skills-diagram {
     z-index:1;
+    
     }   
    .main-section {
     padding-bottom:150px;

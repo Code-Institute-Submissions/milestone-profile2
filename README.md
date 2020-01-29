@@ -120,10 +120,9 @@ This project makes use of:
     - used to make a mockup
 
 ## Testing
-
-The site was tested through a number of means.
-
-Tests were written first. Development met with hurdles that had to be worked around, making TFD infeasible in this case.
+    Tested on Mozilla forefox, Opera, Google Chrome and Safari browsers didin't looked good responsive design.
+    sent few links to my friends and relatives, the feedbacks were good.
+    
 
 ## Deployment
 
@@ -142,7 +141,7 @@ To deploy your own version of the website:
 - Click 'Clone or download' and copy the code for http
 - Open a terminal in your root directory
 - Type 'git clone ' followed by the code taken from github repository
-    - ```git clone https://github.com/Pattern-Projects/oireachtas-ifd-project.git```
+    - ```https://github.com/rimantascode/milestone-profile2.git```
 - When this completes you have your own version of the website
     - Feel free to make any changes to it
 - The website can be run by opening one of the HTML files within a web browser
@@ -159,8 +158,9 @@ It may take a moment for changes to appear on the hosted website.
     - Box shadow was coppied and modified.
 - [code Institute](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
     - used and idea of the pie diagram.
--  [readme.md] (https://github.com/Pattern-Projects/oireachtas-ifd-project/tree/master)
+-  [readme](https://github.com/Pattern-Projects/oireachtas-ifd-project/tree/master)
     - used as I guidence for my own readme.md
+- Work History style coppied and modified from Code Institute lessons
 ### Acknowledgements
 Thank you inspiration, very usefull guidence and tips:
 
