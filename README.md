@@ -48,7 +48,7 @@ They come to the website with questions in need of answering.
 
 ### Mockups
 The website consists from 4 pages index.html, conttact.html,resume.html,portfolio.html. Download section is stright forward, to download the the cv. I did a mockups for 3 pages in the beginning, and then dicided to build 2 more pages. 
-- [Mockup](documentation/full-stack-web-developer.pdf)  
+- [Mockup](documentation/full-stack-web-developer-milestone.pdf)  
 
 
 ## Features
