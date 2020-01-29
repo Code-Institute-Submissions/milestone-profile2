@@ -116,8 +116,8 @@ This project makes use of:
 - [Github Pages](https://rimantascode.github.io/milestone-profile2/)
     - Website hosted on **Github Pages**
 - [Am I Responsive](http://ami.responsivedesign.is)
-    - Testing responsiveness of the website
--[Balsamiq](https://balsamiq.cloud/)
+    - Testing responsiveness of the website **Am I Responsive**
+- [Balsamiq](https://balsamiq.cloud/)
     -used to make a mockup
 
 ## Testing
@@ -157,8 +157,8 @@ It may take a moment for changes to appear on the hosted website.
 
 ## Credits
 the box shadow was coppied and modified from:
-![box-shadow](https://www.w3schools.com/css/css3_shadows.asp)
-![The mockups were made on balsamiq](https://balsamiq.cloud/)
+[box-shadow](https://www.w3schools.com/css/css3_shadows.asp)
+[The mockups were made on balsamiq](https://balsamiq.cloud/)
 
 ### Acknowledgements
 Thank you to the following for inspiration, motivation and the direction I needed:
