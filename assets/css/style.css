@@ -155,9 +155,9 @@ margin-bottom:25px;
    font-style:italic;
    color:#437ccb;
    text-transform: capitalize;
-   margin-bottom: 0px;
+   margin-bottom: 15px;
    margin-top:2px;
-   width:300px;
+   width:auto;
 }
 .main-section-left {
  padding-left:30px;
@@ -203,7 +203,6 @@ margin-bottom:25px;
     font-size:28px;
     color:#d09233;
 }
-/*--------------------------------- padding -- I had the problms with padding on xs ans sm screens*/ 
 .no-gutters, .no-padding {
     padding-left:0;
     padding-right:0;
@@ -458,10 +457,17 @@ top:10px;
     border-radius:20px; 
    
 }
+ .cards-heading {
+font-size:20px;
+font-family: 'Mina',sans-serif;
+font-weight:bolder;
+}
 .for-links p {
     height:200px;
     border-radius:20px; 
     overflow: hidden;
+    font-family:'Mina',sans-serif;
+    font-weight: bold;
 }
  .for-links div i {
 height:50px;
@@ -489,6 +495,13 @@ border-radius:6px;
         margin:0 auto;
         align-items: center;
     }
+    .main-section-left p {
+        margin-left:-15px;
+    }
+    .main-content-h2 {
+        margin:0 auto;
+        margin-bottom:15px;
+    }
 }
 
 @media(min-width: 768px) {
@@ -497,9 +510,6 @@ border-radius:6px;
     }
     .main-section-right div {
       display: inline-block;
-    /* width: 200px;*/
-   
-
     }
     .main-section-right i {
         display:inline-block;
