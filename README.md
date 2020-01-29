@@ -118,7 +118,7 @@ This project makes use of:
 - [Am I Responsive](http://ami.responsivedesign.is)
     - Testing responsiveness of the website **Am I Responsive**
 - [Balsamiq](https://balsamiq.cloud/)
-    -used to make a mockup
+    - used to make a mockup
 
 ## Testing
 
@@ -156,12 +156,14 @@ The benefits of hosting your website on GitHub pages is that any pushed changes 
 It may take a moment for changes to appear on the hosted website.
 
 ## Credits
-the box shadow was coppied and modified from:
-[box-shadow](https://www.w3schools.com/css/css3_shadows.asp)
-[The mockups were made on balsamiq](https://balsamiq.cloud/)
-
+the box shadow in portfolio.html was coppied and modified from:
+ - [w3schools](https://www.w3schools.com/css/css3_shadows.asp)
+ the isiration of pie diagrams got from:
+ - [code Institute](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
+-  [reame.md](https://github.com/Pattern-Projects/oireachtas-ifd-project/tree/master)
+    - used as I guidence for my own readme.md
 ### Acknowledgements
-Thank you to the following for inspiration, motivation and the direction I needed:
+Thank you inspiration, very usefull guidence and tips:
 
 - Seun Owonikoko    @seun_mentor
 - Code Institute
