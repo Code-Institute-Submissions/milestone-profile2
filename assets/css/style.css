@@ -170,14 +170,16 @@ margin-bottom:25px;
 .main-section-left p {
    margin-left:45px;
    color:#666666;
-   font-family: "Comfortaa", sans-serif;
-   animation-duration: 4s;
+   font-family: "Mina", sans-serif;
+   animation-duration: 1s;
    animation-name: slidein;
    -webkit-animation-name: slidein;
    -moz-animation-name: slidein;
    -o-animation-name: slidein;
    overflow:hidden;
    text-align: justify;
+   font-size:18px;
+   font-weight:600;
 }
 @keyframes slidein {
   from {
