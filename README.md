@@ -39,12 +39,11 @@ They come to the website with questions in need of answering.
     - ![#d09233](https://placehold.it/15/d09233/000000?text=+) `#d09233`
     - ![#666666](https://placehold.it/15/666666/000000?text=+) `#666666`
     - ![#f89808](https://placehold.it/15/f89808/000000?text=+) `#f89808`
-    - Bottstrap card class bg-danger![#dc3545](https://placehold.it/15/dc3545/000000?text=+) `#dc3545`
+    - ![#dc3545](https://placehold.it/15/dc3545/000000?text=+) `#dc3545` Bottstrap card class bg-danger
     
     
-- [Custom designed logo](documentation/logo.png) resembling [five rows of dail](documentation/rows-dail.jpg) and [four rows of seanad](documentation/rows-seanad.png) seats.
-- roboto font used throughout the website
-    - font-family: 'Roboto', 'helvetica' sans-serif;
+-  font used throughout the website
+    - font-family: 'Comfortaa', 'Prompt','Roboto', sans-serif;
 
 ### Mockups
 The website consists from 4 pages index.html, conttact.html,resume.html,portfolio.html. Download section is stright forward, to download the the cv. I did a mockups for 3 pages in the beginning, and then dicided to build 2 more pages. 
@@ -156,11 +155,11 @@ The benefits of hosting your website on GitHub pages is that any pushed changes 
 It may take a moment for changes to appear on the hosted website.
 
 ## Credits
-the box shadow in portfolio.html was coppied and modified from:
  - [w3schools](https://www.w3schools.com/css/css3_shadows.asp)
-- the ispiration of pie diagrams got from:
-        - [code Institute](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
--  [readme.md](https://github.com/Pattern-Projects/oireachtas-ifd-project/tree/master)
+    - Box shadow was coppied and modified.
+- [code Institute](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
+    - used and idea of the pie diagram.
+-  [readme.md] (https://github.com/Pattern-Projects/oireachtas-ifd-project/tree/master)
     - used as I guidence for my own readme.md
 ### Acknowledgements
 Thank you inspiration, very usefull guidence and tips:
