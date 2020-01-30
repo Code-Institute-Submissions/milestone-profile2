@@ -4,7 +4,7 @@ body {
     background-color:#fffff7;
 }
 html, body { 
-overflow-x: hidden; 
+    overflow-x: hidden; 
 
 }
 .fix-gap {
@@ -13,11 +13,11 @@ overflow-x: hidden;
 /*--------------------------------- NAV */
 
 nav ul {
-text-align:center;
-margin:0 auto;
+    text-align:center;
+    margin:0 auto;
 }
 nav ul li {  
-   margin:0 auto;
+    margin:0 auto;
     width:20%;
     display:inline-block;
     margin:0;
@@ -35,10 +35,10 @@ nav ul li {
     background-color:#d01b33;
 }
 nav li a {
- color:#eeeeee !important;
- font-family: 'Comfortaa', sans-serif;
- font-weight:800;
- font-size:14px;
+    color:#eeeeee !important;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:800;
+    font-size:14px;
 }
 nav li a:hover {
     color:#ffffff; 
@@ -57,17 +57,17 @@ nav li a:hover {
 /*--------------------------------- Header */
 
 .header-left {
-min-height:250px;
-background:#2b78e4;
+    min-height:250px;
+    background:#2b78e4;
 }
 .name {
-padding:0;
-color:#fffff7;
-font-family: 'Promt',sans-serif;
-font-weight:400;
-margin-left:30px;
-margin-top:30px;
-text-shadow:1px 1px #333333;
+    padding:0;
+    color:#fffff7;
+    font-family: 'Promt',sans-serif;
+    font-weight:400;
+    margin-left:30px;   
+    margin-top:30px;
+    text-shadow:1px 1px #333333;
 }
 .value {
     color:#fff;
@@ -106,11 +106,11 @@ margin-top:20px;
     letter-spacing:2px;
 }
 .contact-details-phone {
-margin-top:25px;
+    margin-top:25px;
 }
 .contact-details-email {
-margin-top:20px;
-margin-bottom:25px;
+    margin-top:20px;
+    margin-bottom:25px;
 }
 
 .frame-for-picture {
@@ -163,15 +163,20 @@ margin-bottom:25px;
    width:auto;
 }
 .centering {
-width:173px;
-text-align:center;
-margin-bottom:1px;
-margin-top:8px;
+    width:173px;
+    text-align:center;
+    margin-bottom:1px;
+    margin-top:8px;
 
 }
+.aligning-skills {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 369px;
+}
 .main-section-left {
- padding-left:30px;
- padding-right:15px;
+    padding-left:30px;
+    padding-right:15px;
  }
 .icon-color {
     font-size:inherit;
@@ -247,14 +252,14 @@ footer .social-links {
     text-decoration:none; 
 }
 .social-inline-items i:hover {
-text-align:center;
-color:#d09233;
-line-height:56px;
+    text-align:center;
+    color:#d09233;
+    line-height:56px;
 }
 .social-inline-items:hover {
-border :2px solid #d09233;
-width:59px;
-height:59px;
+    border :2px solid #d09233;
+    width:59px;
+    height:59px;
 /*this still needs to be fixed, because when it shrinks down it is not in center*/
 }
 .social-inline-items i {
@@ -352,105 +357,105 @@ z-index:2;
 }
 /*--------------------------------- This one is for HTML/HTML5 */
 #pie-hidde-1 {
-position:absolute;
-width:100px;
-height:100px;
-border-radius:50%;
-background-color:#fffff7;
-clip: rect(0px,50px,50px,0px); 
-z-index:2;
-left: 50%;
-margin-left:-50px;
-top:10px;
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#fffff7;
+    clip: rect(0px,50px,50px,0px); 
+    z-index:2;
+    left: 50%;
+    margin-left:-50px;
+    top:10px;
 }
 .pie-base {
-position:absolute;
-width:90px;
-height:90px;
-border-radius:50%;
-background-color:#437ccb;
-z-index:3;
-left: 50%;
-margin-left: -45px;
-top:15px;
+    position:absolute;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    background-color:#437ccb;
+    z-index:3;
+    left: 50%;
+    margin-left: -45px;
+    top:15px;
 }
 .pie-show {
-border:1px solid #fffff7;
-position:absolute;
-width:100px;
-height:100px;
-border-radius:50%;
-background-color:#f89808;
-z-index:1;
-left: 50%;
-margin-left: -50px;
-top:10px;
+    border:1px solid #fffff7;
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#f89808;
+    z-index:1;
+    left: 50%;
+    margin-left: -50px;
+    top:10px;
 }
 /*--------------------------------- This one is for JavaScript */
-#pie-hidde-2 {
-position:absolute;
-width:100px;
-height:100px;
-border-radius:50%;
-background-color:#fffff7;
-clip: rect(0px,50px,100px,0px); 
-z-index:3;
-left: 50%;
-margin-left:-50px;
-top:10px;
-}
+    #pie-hidde-2 {
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#fffff7;
+    clip: rect(0px,50px,100px,0px); 
+    z-index:3;
+    left: 50%;
+    margin-left:-50px;
+    top:10px;
+    }
 /*--------------------------------- This one is for css/css3 */
-#pie-hidde-3 {
-position:absolute;
-width:100px;
-height:100px;
-border-radius:50%;
-background-color:#fffff7;
-clip: rect(0px,50px,60px,0px); 
-z-index:3;
-left: 50%;
-margin-left:-50px;
-top:10px;
-}
+    #pie-hidde-3 {
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#fffff7;
+    clip: rect(0px,50px,60px,0px); 
+    z-index:3;
+    left: 50%;
+    margin-left:-50px;
+    top:10px;
+    }
 /*--------------------------------- This one is for Python */
-#pie-hidde-4 {
-position:absolute;
-width:100px;
-height:100px;
-border-radius:50%;
-background-color:#fffff7;
-clip: rect(0px,50px,70px,0px); 
-z-index:3;
-left: 50%;
-margin-left:-50px;
-top:10px;
-}
+    #pie-hidde-4 {
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#fffff7;
+    clip: rect(0px,50px,70px,0px); 
+    z-index:3;
+    left: 50%;
+    margin-left:-50px;
+    top:10px;
+    }
 /*--------------------------------- This one is for jQuery */
-#pie-hidde-5 {
-position:absolute;
-width:100px;
-height:100px;
-border-radius:50%;
-background-color:#fffff7;
-clip: rect(0px,50px,30px,0px); 
-z-index:3;
-left: 50%;
-margin-left:-50px;
-top:10px;
-}
+    #pie-hidde-5 {
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#fffff7;
+    clip: rect(0px,50px,30px,0px); 
+    z-index:3;
+    left: 50%;
+    margin-left:-50px;
+    top:10px;
+    }
 /*--------------------------------- This one is for SQL */
-#pie-hidde-6 {
-position:absolute;
-width:100px;
-height:100px;
-border-radius:50%;
-background-color:#fffff7;
-clip: rect(0px,50px,20px,0px); 
-z-index:3;
-left: 50%;
-margin-left:-50px;
-top:10px;
-}
+    #pie-hidde-6 {
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#fffff7;
+    clip: rect(0px,50px,20px,0px); 
+    z-index:3;
+    left: 50%;
+    margin-left:-50px;
+    top:10px;
+    }
 
 /*--------------------------------- Contact.html */
 
@@ -477,10 +482,10 @@ top:10px;
    
 }
  .cards-heading {
-font-size:20px;
-font-family: 'Mina',sans-serif;
-font-weight:bolder;
-color:#fffff7
+    font-size:20px;
+    font-family: 'Mina',sans-serif;
+    font-weight:bolder;
+    color:#fffff7
 }
 .for-links p {
     height:200px;
@@ -490,22 +495,22 @@ color:#fffff7
     font-weight: bold;
     overflow:scroll;
 }
- .for-links div i {
-height:50px;
-width:50px;   
-color:#fffff7;
-font-size:2em;
-line-height:50px;
+.for-links div i {
+    height:50px;
+    width:50px;   
+    color:#fffff7;
+    font-size:2em;
+    line-height:50px;
 
 }
 .for-links:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .for-links span i:hover {
-background:#fff;
-color:#333333;
-display: inline-block;
-border-radius:6px;
+    background:#fff;
+    color:#333333;
+    display: inline-block;
+    border-radius:6px;
 }
 
 @media(max-width: 768px) {
@@ -519,6 +524,7 @@ border-radius:6px;
     }
     .main-section-right {
         padding:0;
+        min-height:350px;
     }
 }
 
@@ -527,7 +533,7 @@ border-radius:6px;
         Display:block;
     }
     .main-section-right div {
-     /* display: inline-block;*/
+   
     }
     .main-section-right i {
         display:inline-block;
@@ -550,13 +556,28 @@ border-radius:6px;
        
    }
 }
+@media screen and (max-width:380px){
+    .aligning-skills{
+        width:245px;
+    }
+}
 
 @media(max-width: 992px) {
     .nav-item {
     width:100%;
 }
 }
+ @media screen and (orientation:landscape) and (max-width:768px) { 
 
+     footer {
+      position: relative;
+      bottom:0;
+     }
+     .main-section-right-adjust {
+         height:auto;
+     }
+
+ }
 
 
 
