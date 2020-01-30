@@ -129,7 +129,7 @@ The process involved:
  
 To deploy your own version of the website:
 - Have git installed
-- Visit the [repository](https://rimantascode.github.io/milestone-profile2/)
+- Visit the [repository](https://github.com/rimantascode/milestone-profile2)
 - Click 'Clone or download' and copy the code for http
 - Open a terminal in your root directory
 - Type 'git clone ' followed by the code taken from github repository
