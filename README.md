@@ -1,6 +1,6 @@
 # Full Stack Web Developer 
 
-This website is my first milestone project for Code Institute, I will be using this website for my own presentation. The website is very simple, my goal wasto display easily understandable information, for my potential employers or customers. The website was built using the Bootstrap v4.4.1 framework. 
+This website is my first milestone project for Code Institute, I will be using this website for my own presentation. The website is very simple, my goal was to display easily understandable information, for my potential employers or customers. The website was built using the Bootstrap v4.4.1 framework. 
 Hosted on [GitHub Pages](https://rimantascode.github.io/milestone-profile2/)
 Repository on [GitHub](https://github.com/rimantascode/milestone-profile2)
 
@@ -18,7 +18,7 @@ The project is shared for use with the [GNU General Public License v3](https://g
 ![Responsive Views of Home Page](documentation/responsive.png)
 
 ### Users 
-Expected users of the website my potential employers or clients. 
+Expected users of the website my potential employers or clients.
 
 ### Design
 
@@ -35,7 +35,7 @@ Expected users of the website my potential employers or clients.
     
     
 -  font used throughout the website
-    - font-family: 'Comfortaa', 'Prompt','Roboto','Mina', sans-serif;
+    - font-family: 'Comfortaa', 'Prompt','Roboto', sans-serif;
 
 ### Mockups
 The website consists from 4 pages index.html, conttact.html,resume.html,portfolio.html. Download section is stright forward, to download the the cv. I did a mockups for 3 pages in the beginning, and then dicided to build 2 more pages. 
@@ -78,6 +78,7 @@ Features planned, implemented and outlined for later development
 - Gitpod - Version Control System
 - GitHub - Remote Repository
 - Deployed - Hosted on Github Pages
+
 
 ### Features Left to Implement
 - custom logo
