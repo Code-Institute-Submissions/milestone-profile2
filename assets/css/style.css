@@ -167,7 +167,6 @@ margin-top:20px;
     text-align:center;
     margin-bottom:1px;
     margin-top:8px;
-
 }
 .aligning-skills {
     padding: 0;
@@ -260,7 +259,6 @@ footer .social-links {
     border :2px solid #d09233;
     width:59px;
     height:59px;
-/*this still needs to be fixed, because when it shrinks down it is not in center*/
 }
 .social-inline-items i {
     font-size:40px;
@@ -274,7 +272,7 @@ footer .social-links {
     color:#fffff7;
     line-height: 56px;
 }
-/* these two classes below have to chaked because might not have any effect on the code*/
+
 .ss {
     padding:0;
 }
@@ -501,7 +499,6 @@ z-index:2;
     color:#fffff7;
     font-size:2em;
     line-height:50px;
-
 }
 .for-links:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
